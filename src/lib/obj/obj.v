@@ -593,4 +593,3 @@ pub fn tst() {
 	r := strconv.atof_quick(s[1..s.len - 1])
 	println(r)
 }
-
