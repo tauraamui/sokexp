@@ -171,7 +171,7 @@ fn draw_model(g_runtime GameRuntime, model_pos m4.Vec4) u32 {
 	// rot := [f32(app.mouse_y), f32(app.mouse_x)]
 	rot := [f32(0), f32(0)]
 	// mut zoom_scale := scale + f32(app.scroll_y) / (app.obj_part.radius * 4)
-	zoom_scale := 1
+	zoom_scale := 2
 	mats := calc_matrices(dw, dh, rot[0], rot[1], zoom_scale, model_pos)
 
 	mut tmp_vs_param := obj.Tmp_vs_param{
