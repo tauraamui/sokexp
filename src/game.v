@@ -16,7 +16,7 @@ import os
 
 fn C.gouraud_shader_desc(gfx.Backend) &gfx.ShaderDesc
 
-const cato_obj_filename = "apple.obj"
+const cato_obj_filename = "floor.obj"
 
 struct GameRuntime {
 mut:
